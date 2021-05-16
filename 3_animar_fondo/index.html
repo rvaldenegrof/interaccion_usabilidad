@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivle el verano</title>
+    <style>
+        .row, .container {
+            display: block;
+            width: 100%;
+            border-color: black;
+
+        }
+        .cielo {
+            width: 100%;
+            height: 500px;
+            background-color: #66ccff;
+            border-color: #66ccff;
+        }
+        .arena {
+            width: 100%;
+            height: 300px;
+            background-color: #ffe6cc;
+            border-color: #ffe6cc;
+        }
+
+        .title {
+            color: black;
+            position: relative;
+        }
+    </style>
 </head>
 <body>
+    <div class="container row">
+        <div class="cielo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 500 500" class="a">
+                <style>
+                    .a {
+                        enable-background: new 0 0 420 420;
+                        version: 1;
+                    }
+            
+                    .b {
+                        fill: #F5C525;
+                    }
+            
+                    .c {
+                        fill: #F8A805;
+                    }
+                </style>
+                <polygon
+                    points="420 210 375.8 247.9 399.2 301.1 342.9 316 340.9 374.2 283.8 363.2 256.7 414.8 210 380 163.3 414.8 136.2 363.2 79.1 374.2 77.1 316 20.8 301.1 44.2 247.9 0 210 44.2 172.1 20.8 118.9 77.1 104 79.1 45.8 136.2 56.8 163.3 5.2 210 40 256.7 5.2 283.8 56.8 340.9 45.8 342.9 104 399.2 118.9 375.8 172.1 "
+                    class="b" />
+                <circle cx="210" cy="210" r="140" class="c" />
+            </svg>
+        </div>
+        <div class="arena"></div>
+
+        <section class="hero-section">
+            <h1 class="title">VIVE EL VERANO</h1>
+        </section>
+    </div>
     
 </body>
 </html>
